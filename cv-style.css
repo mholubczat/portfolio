@@ -2,28 +2,51 @@
 body {
   font-family: 'Verdana', sans-serif;
   background-size: cover;
-  background-color: rgb(144,144,144);
+  background-color: rgb(220,220,220);
 }
 
 a {
   font-size: 10px;
-  color: rgb(74,76,111);
+  color: rgb(114,116,181);
 }
 
 a:hover{
-  color: rgb(74,76,111);
+  color: rgb(114,116,181);
  }
 
 a:active{
 font-size:0.9em;
  }
 
-h3, h4 {
-  color: rgb(74,76,111);
+h3, h5 {
+  color: rgb(114,116,181);
+  font-weight: bold;
 }
 
 section img {
   width: 80%;
+}
+
+footer {
+border-top: solid thin rgb(114,116,181);
+font-size:0.9em;
+}
+
+/*.col-sm-3 {
+  background-color: rgb(200,200,200);
+}
+
+header .col-sm-3 {
+  background-color: rgb(255,255,255);
+}
+*/
+
+.col-sm-9 {
+  border-left: solid thin rgb(114,116,181);
+}
+
+.note {
+  font-size: 0.9em;
 }
 
 page {
@@ -33,5 +56,10 @@ page {
   display: block;
   padding: 1.5cm 1.5cm 1.5cm;
   margin: 1.5cm auto;
-  box-shadow: 0 0 0.2cm rgba(0,0,0,0.2);
+  box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+  font-size: 14px;
+}
+
+nav {
+border-left: solid rgb(114,116,181);
 }
