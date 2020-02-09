@@ -1,5 +1,5 @@
 # portfolio
->My personal portfolio website
+My personal portfolio website
 
 ## Table of contents
 * [General info](#general-info)
@@ -24,7 +24,7 @@ To-do list:
 * Input personal data
 
 ## Status
-Project is in progress
+Project is in progress. See current state: [m-holubczat.me](m-holubczat.me)
 
 ## Inspiration
 Project based on codecademy "Make a website" course
