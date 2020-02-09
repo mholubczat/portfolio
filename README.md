@@ -1,5 +1,5 @@
-# portfolio
-My personal portfolio website
+# My portfolio
+A personal portfolio website
 
 ## Table of contents
 * [General info](#general-info)
