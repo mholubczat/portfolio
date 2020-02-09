@@ -29,4 +29,4 @@ Project is in progress. See current state: [m-holubczat.me](m-holubczat.me)
 ## Inspiration
 Project based on codecademy "Make a website" course
 * Goal #1 - to learn basics of creating and hosting websites
-* Goal #2 - to have a functional personal website
+* Goal #2 - to build a functional personal website
