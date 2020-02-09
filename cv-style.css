@@ -1,0 +1,37 @@
+
+body {
+  font-family: 'Verdana', sans-serif;
+  background-size: cover;
+  background-color: rgb(144,144,144);
+}
+
+a {
+  font-size: 10px;
+  color: rgb(74,76,111);
+}
+
+a:hover{
+  color: rgb(74,76,111);
+ }
+
+a:active{
+font-size:0.9em;
+ }
+
+h3, h4 {
+  color: rgb(74,76,111);
+}
+
+section img {
+  width: 80%;
+}
+
+page {
+  width: 21cm;
+  height: 29.7cm;
+  background: white;
+  display: block;
+  padding: 1.5cm 1.5cm 1.5cm;
+  margin: 1.5cm auto;
+  box-shadow: 0 0 0.2cm rgba(0,0,0,0.2);
+}
