@@ -6,29 +6,42 @@ body {
 }
 
 a {
-  font-size: 10px;
-  color: rgb(114,116,181);
+  font-size: 7.5pt;
+  color: rgb(94,96,161);
+  height: 9pt;
+  text-decoration: none !important;
+}
+
+p {
+  font-size: 7.5pt;
+  color: rgb(94,96,161);
+  height: 4pt;
 }
 
 a:hover{
-  color: rgb(114,116,181);
+  color: rgb(94,96,161);
  }
 
 a:active{
 font-size:0.9em;
  }
 
-h3, h5 {
-  color: rgb(114,116,181);
+h3, h6 {
+  color: rgb(94,96,161);
   font-weight: bold;
 }
 
-section img {
-  width: 80%;
+div img {
+  width: 100%;
 }
 
-footer {
-border-top: solid thin rgb(114,116,181);
+.row {
+  padding : 0mm 0mm 0mm 0mm;
+  width : 18cm;
+}
+
+#footer {
+border-top: solid thin rgb(94,96,161);
 font-size:0.9em;
 }
 
@@ -41,8 +54,17 @@ header .col-sm-3 {
 }
 */
 
+.col-sm-3 {
+  width : 4.5cm;
+}
+
+.col-sm-6 {
+  width : 9cm;
+}
+
 .col-sm-9 {
-  border-left: solid thin rgb(114,116,181);
+  border-left: solid thin rgb(94,96,161);
+  width : 13.5cm;
 }
 
 .note {
@@ -54,12 +76,38 @@ page {
   height: 29.7cm;
   background: white;
   display: block;
-  padding: 1.5cm 1.5cm 1.5cm;
-  margin: 1.5cm auto;
+  position: center;
+  padding: 25mm 15mm 25mm 15mm;
+  margin: auto;
+  margin-top: 25mm;
   box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
-  font-size: 14px;
+  font-size: 10.5pt;
 }
 
-nav {
-border-left: solid rgb(114,116,181);
+li {
+  font-size: 0.8em;
 }
+
+ .col-sm-1 {
+  border-left: solid thin rgb(94,96,161);
+  width:1.5cm;
+ }
+
+ .col-sm-1 img { 
+ width : 13pt;
+ height: 13pt;
+}
+
+@media print {
+
+page {
+  margin: 0mm 0mm 0mm 0mm !important;
+}
+
+.row {
+  width: 18cm !important;
+}
+ 
+
+}
+
