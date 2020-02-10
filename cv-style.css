@@ -6,15 +6,16 @@ body {
 }
 
 a {
-  font-size: 10px;
+  font-size: 7.5pt;
   color: rgb(94,96,161);
-  height: 12px;
+  height: 9pt;
+  text-decoration: none !important;
 }
 
 p {
-  font-size: 10px;
+  font-size: 7.5pt;
   color: rgb(94,96,161);
-  height: 5px;
+  height: 4pt;
 }
 
 a:hover{
@@ -25,16 +26,21 @@ a:active{
 font-size:0.9em;
  }
 
-h3, h5 {
+h3, h6 {
   color: rgb(94,96,161);
   font-weight: bold;
 }
 
-section img {
-  width: 80%;
+div img {
+  width: 100%;
 }
 
-footer {
+.row {
+  padding : 0mm 0mm 0mm 0mm;
+  width : 18cm;
+}
+
+#footer {
 border-top: solid thin rgb(94,96,161);
 font-size:0.9em;
 }
@@ -48,8 +54,17 @@ header .col-sm-3 {
 }
 */
 
+.col-sm-3 {
+  width : 4.5cm;
+}
+
+.col-sm-6 {
+  width : 9cm;
+}
+
 .col-sm-9 {
   border-left: solid thin rgb(94,96,161);
+  width : 13.5cm;
 }
 
 .note {
@@ -62,10 +77,11 @@ page {
   background: white;
   display: block;
   position: center;
-  padding: 27mm 16mm 27mm 16mm;
-  margin: 27mm 16mm 27mm 16mm;
+  padding: 25mm 15mm 25mm 15mm;
+  margin: auto;
+  margin-top: 25mm;
   box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
-  font-size: 14px;
+  font-size: 10.5pt;
 }
 
 li {
@@ -74,19 +90,24 @@ li {
 
  .col-sm-1 {
   border-left: solid thin rgb(94,96,161);
+  width:1.5cm;
  }
 
  .col-sm-1 img { 
- width : 17px;
- height: 17px;
+ width : 13pt;
+ height: 13pt;
 }
 
 @media print {
 
-.page {
-  width: 21cm;
-  height: 29.7cm;
-  margin: 27mm 16mm 27mm 16mm;
+page {
+  margin: 0mm 0mm 0mm 0mm !important;
 }
 
+.row {
+  width: 18cm !important;
 }
+ 
+
+}
+
