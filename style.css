@@ -41,20 +41,19 @@ a:hover {
 }
 
 a:active {
-  font-size: 0.9em;
+  color: orange;
 }
 
 .jumbotron {
-  padding-right: 20px;
+ 
   display: flex;
   align-items: right;
   background-image: url('code.jpg');
-
-  background-position: 70%, 20%;
-  background-size: cover;
+  background-size: 100%;
+  background-repeat: no-repeat;
   background-color: #000000;
   color: #ffffff;
-  height: 400px;
+  height: auto;
   border-radius: 0px;
 }
 
@@ -62,11 +61,7 @@ a:active {
   font-size: 60px;
   font-weight: 700;
   margin: 0;
-  color: #fff;
-}
-
-.jumbotron h3 {
-  margin: 0 0 20px;
+  margin-bottom: 240px;
   color: #fff;
 }
 
@@ -125,18 +120,3 @@ footer ul {
   list-style: none;
 }
 
-page {
-  width: 21cm;
-  height: 29.7cm;
-  font-family: Verdana, sans-serif;
-  background: white;
-  display: block;
-  padding: 2cm;
-  margin: 2cm auto;
-  box-shadow: 0 0 0.2cm rgba(0,0,0,0.2);
-}
-
-.col-sm-3 img {
-  width:  80%;
-
-}

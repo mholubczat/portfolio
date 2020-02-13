@@ -11,7 +11,7 @@ page {
   background: white;
   display: block;
   position: center;
-  padding: 25mm 15mm 15mm 25mm;
+  padding: 15mm 15mm 15mm 15mm;
   margin: auto;
   box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
   font-size: 10.5pt;
@@ -28,7 +28,7 @@ page {
   display: inline-grid;
   margin: 0;
   position: absolute;
-  left: 16.5cm;
+  left: 17.5cm;
  }
 
  .col-sm-1 img { 
@@ -36,32 +36,30 @@ page {
  height: 11pt;
 }
 
-.col-sm-2 {
-  width: 3cm;
-  position: absolute;
-  margin: 0;
-  display: inline-grid;
- }
-
 .col-sm-3 {
   width : 4.5cm;
   display: inline-grid;
-  margin: 0;
+  margin: 0 0 0 0;
   position: absolute;
 }
 
+.col-sm-3 img {
+  width : 70%;
+  left: 0.5cm; 
+}
+
 nav {
-  left : 12cm;
+  left : 13cm;
   text-align: right;  
 
 }
 
-.col-sm-6 {
-    width : 9cm;
+.col-sm-5 {
+    width : 7.5cm;
     display: inline-grid;
     margin: 0;
     position: absolute;
-    left: 3.5cm;
+    left: 4.5cm;
 }
 
 .col-sm-9 {
@@ -76,7 +74,7 @@ nav {
 
 .main {
   position: absolute;
-  top: 7.5cm;
+  top: 6cm;
 }
 
 a {
@@ -88,12 +86,12 @@ a {
   margin : 0 0 0 0;
  }
 
-a:hover{
+a:hover {
   color: rgb(94,96,161);
   text-decoration: underline;
  }
 
-a:active{
+a:active {
 font-size:0.9em;
  }
 
@@ -105,36 +103,41 @@ p {
 }
 
 dt {
-  margin-left: 0.4cm;
+  margin: 0.2cm 0 0 0;
 }
 
 dd {
   margin : 0.4cm 0 0 0;
 }
 
-h1, h4 {
+h1 {
   color: rgb(94,96,161);
   font-weight: bold;
   margin-bottom: 0.2cm;
 }
 
-h3 {
+h3 {color: rgb(94,96,161);}
+
+header h3 {
+  color: black;
   margin: 0;
 }
 
-div img {
-  width: 100%;
+
+#interests {
+  position: absolute;
+  top: 18.6cm;
 }
 
 footer {
 border-top: solid thin rgb(94,96,161);
-font-size:0.9em;
-top: 25.7cm;
+font-size:0.8em;
+top: 26cm;
 }
 
 li {
   font-size: 0.9em;
-  margin-left: -0.3cm;
+  margin-left: -0.5cm;
 }
 
 @media print {
