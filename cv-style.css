@@ -6,26 +6,30 @@ body {
 }
 
 page {
-  width: 21cm;
-  height: 29.7cm;
+  width: 18cm;
+  height: 26.7cm;
   background: white;
   display: block;
   position: center;
-  padding: 15mm 15mm 15mm 15mm;
+  padding: 25mm 15mm 15mm 25mm;
   margin: auto;
   margin-top: 25mm;
   box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
   font-size: 10.5pt;
 }
 
-div{
-  border:solid;
-}
+.row {
+   width : 18cm;
+   position: absolute;
+   }
 
 .col-sm-1 {
   border-left: solid thin rgb(94,96,161);
   width: 1.5cm;
-  display: inline-table;
+  display: inline-grid;
+  margin: 0;
+  position: absolute;
+  left: 16.5cm;
  }
 
  .col-sm-1 img { 
@@ -34,30 +38,79 @@ div{
 }
 
 .col-sm-2 {
-  border-left: solid thin rgb(94,96,161);
   width: 3cm;
-  display: inline-block;
+  position: absolute;
   margin: 0;
+  display: inline-grid;
  }
 
 .col-sm-3 {
   width : 4.5cm;
-  display: inline-block;
-    margin: 0;
+  display: inline-grid;
+  margin: 0;
+  position: absolute;
+}
+
+nav {
+  left : 12cm;
 }
 
 .col-sm-6 {
-  width : 9cm;
-  display: inline-block;
+    width : 9cm;
+    display: inline-grid;
     margin: 0;
+    position: absolute;
+    left: 3.5cm;
 }
 
 .col-sm-9 {
   border-left: solid thin rgb(94,96,161);
   width : 13.5cm;
-  display: inline-block;  margin: 0;
+  display: block;  
+  margin: 0;
+  position: absolute;
+  left: 4.5cm;
 }
 
+#sample-projects {
+  position: absolute;
+  top: 9cm;
+}
+
+#skills {
+  position: absolute;
+  top: 15cm;
+}
+
+#education {
+  position: absolute;
+  top: 18cm;
+}
+
+#experience {
+  position: absolute;
+  top: 20cm;
+}
+
+#interests {
+  position: absolute;
+  top: 23cm;
+}
+
+.object1 {
+  position: absolute;
+  top: 1.5cm;
+}
+
+.object2 {
+  position: absolute;
+  top: 4cm;
+}
+
+.object3 {
+  position: absolute;
+  top: 7cm;
+}
 
 a {
   width: 4.5cm;
@@ -82,22 +135,24 @@ p {
   height: 4pt;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h4 {
   color: rgb(94,96,161);
   font-weight: bold;
+  margin-bottom: 0.2cm;
+}
+
+h3 {
+  margin: 0;
 }
 
 div img {
   width: 100%;
 }
 
-.row {
-   width : 18cm;
-}
-
-#footer {
+footer {
 border-top: solid thin rgb(94,96,161);
 font-size:0.9em;
+top: 26.7cm;
 }
 
 li {
@@ -112,10 +167,14 @@ li {
 }
 
 @media print {
-  html, body, page {
+  body {
     width: 210mm;
     height: 297mm;
-    margin: 0 0 0 0 !important;
+    margin: 0;
+  }
+
+  page {
+    margin: 0;
   }
 
 a {
