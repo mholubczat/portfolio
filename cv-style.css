@@ -7,13 +7,12 @@ body {
 
 page {
   width: 18cm;
-  height: 26.7cm;
+  height: 24.7cm;
   background: white;
   display: block;
   position: center;
   padding: 25mm 15mm 15mm 25mm;
   margin: auto;
-  margin-top: 25mm;
   box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
   font-size: 10.5pt;
 }
@@ -70,48 +69,14 @@ nav {
   width : 13.5cm;
   display: block;  
   margin: 0;
-  position: absolute;
+  padding-left: 0.2cm;
+  position: relative;
   left: 4.5cm;
 }
 
-#sample-projects {
+.main {
   position: absolute;
-  top: 9cm;
-}
-
-#skills {
-  position: absolute;
-  top: 15cm;
-}
-
-#education {
-  position: absolute;
-  top: 18cm;
-}
-
-#experience {
-  position: absolute;
-  top: 20cm;
-}
-
-#interests {
-  position: absolute;
-  top: 23cm;
-}
-
-.object1 {
-  position: absolute;
-  top: 1.5cm;
-}
-
-.object2 {
-  position: absolute;
-  top: 4cm;
-}
-
-.object3 {
-  position: absolute;
-  top: 7cm;
+  top: 7.5cm;
 }
 
 a {
@@ -139,6 +104,14 @@ p {
   margin : 0 0.15cm 0 0.1cm;
 }
 
+dt {
+  margin-left: 0.4cm;
+}
+
+dd {
+  margin : 0.4cm 0 0 0;
+}
+
 h1, h4 {
   color: rgb(94,96,161);
   font-weight: bold;
@@ -156,11 +129,12 @@ div img {
 footer {
 border-top: solid thin rgb(94,96,161);
 font-size:0.9em;
-top: 26.7cm;
+top: 25.7cm;
 }
 
 li {
-  font-size: 0.8em;
+  font-size: 0.9em;
+  margin-left: -0.3cm;
 }
 
 @media print {
