@@ -129,21 +129,14 @@ header h3 {
 footer {
 border-top: solid thin rgb(94,96,161);
 font-size:0.74em;
-top: 27cm;
+top: 27.5cm;
+padding-top: 0.1cm;
 }
 
 li {
   font-size: 0.9em;
   margin-left: -0.5cm;
 }
-
-#interests {
-  position:absolute;
-  top: 19cm;
-}
-
-
-
 
 @page {
   size: A4;
