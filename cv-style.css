@@ -5,12 +5,76 @@ body {
   background-color: rgb(220,220,220);
 }
 
+page {
+  width: 21cm;
+  height: 29.7cm;
+  background: white;
+  display: block;
+  position: center;
+  padding: 15mm 15mm 15mm 15mm;
+  margin: auto;
+  margin-top: 25mm;
+  box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+  font-size: 10.5pt;
+}
+
+div{
+  border:solid;
+}
+
+.col-sm-1 {
+  border-left: solid thin rgb(94,96,161);
+  width: 1.5cm;
+  display: inline-table;
+ }
+
+ .col-sm-1 img { 
+ width : 13pt;
+ height: 13pt;
+}
+
+.col-sm-2 {
+  border-left: solid thin rgb(94,96,161);
+  width: 3cm;
+  display: inline-block;
+  margin: 0;
+ }
+
+.col-sm-3 {
+  width : 4.5cm;
+  display: inline-block;
+    margin: 0;
+}
+
+.col-sm-6 {
+  width : 9cm;
+  display: inline-block;
+    margin: 0;
+}
+
+.col-sm-9 {
+  border-left: solid thin rgb(94,96,161);
+  width : 13.5cm;
+  display: inline-block;  margin: 0;
+}
+
+
 a {
+  width: 4.5cm;
   font-size: 7.5pt;
   color: rgb(94,96,161);
   height: 9pt;
-  text-decoration: none !important;
-}
+  text-decoration: none;
+ }
+
+a:hover{
+  color: rgb(94,96,161);
+  text-decoration: underline;
+ }
+
+a:active{
+font-size:0.9em;
+ }
 
 p {
   font-size: 7.5pt;
@@ -18,15 +82,7 @@ p {
   height: 4pt;
 }
 
-a:hover{
-  color: rgb(94,96,161);
- }
-
-a:active{
-font-size:0.9em;
- }
-
-h3, h6 {
+h1, h2, h3, h4, h5, h6 {
   color: rgb(94,96,161);
   font-weight: bold;
 }
@@ -36,8 +92,7 @@ div img {
 }
 
 .row {
-  padding : 0mm 0mm 0mm 0mm;
-  width : 18cm;
+   width : 18cm;
 }
 
 #footer {
@@ -45,69 +100,26 @@ border-top: solid thin rgb(94,96,161);
 font-size:0.9em;
 }
 
-/*.col-sm-3 {
-  background-color: rgb(200,200,200);
-}
-
-header .col-sm-3 {
-  background-color: rgb(255,255,255);
-}
-*/
-
-.col-sm-3 {
-  width : 4.5cm;
-}
-
-.col-sm-6 {
-  width : 9cm;
-}
-
-.col-sm-9 {
-  border-left: solid thin rgb(94,96,161);
-  width : 13.5cm;
-}
-
-.note {
-  font-size: 0.9em;
-}
-
-page {
-  width: 21cm;
-  height: 29.7cm;
-  background: white;
-  display: block;
-  position: center;
-  padding: 25mm 15mm 25mm 15mm;
-  margin: auto;
-  margin-top: 25mm;
-  box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
-  font-size: 10.5pt;
-}
-
 li {
   font-size: 0.8em;
 }
 
- .col-sm-1 {
-  border-left: solid thin rgb(94,96,161);
-  width:1.5cm;
- }
+@media print {
 
- .col-sm-1 img { 
- width : 13pt;
- height: 13pt;
+@page {
+  size: A4;
+  margin: 0;
 }
 
 @media print {
+  html, body, page {
+    width: 210mm;
+    height: 297mm;
+    margin: 0 0 0 0 !important;
+  }
 
-page {
-  margin: 0mm 0mm 0mm 0mm !important;
+a {
+   text-decoration: none !important;
 }
-
-.row {
-  width: 18cm !important;
-}
- 
-
 }
 
