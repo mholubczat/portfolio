@@ -17,11 +17,11 @@ Simple personal website with interactive resume
 * Bootstrap v4.4.1
 
 ## Features
-* Resume page in A4 format, for easy browser printing. Ctrl+P -> Save as PDF to create pdf with active hyperlinks.  
+* Resume page in A4 format, for easy browser printing. *Ctrl+P -> Save as PDF* to create pdf with active hyperlinks.  
 * Home and credentials page in web friendly bootstrap layout.
 
 To-do list:
-* Work on home page readibility: change background images.
+* Work on home page readability: change background images.
 
 ## Status
 Website is up and running: [m-holubczat.me](http://m-holubczat.me)
