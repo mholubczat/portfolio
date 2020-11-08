@@ -24,7 +24,7 @@ To-do list:
 * Work on home page readibility: change background images.
 
 ## Status
-Website is up and running: [m-holubczat.me](m-holubczat.me)
+Website is up and running: [m-holubczat.me](http://m-holubczat.me)
 
 ## Inspiration
 Project based on codecademy "Make a website" course
