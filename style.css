@@ -1,17 +1,20 @@
-
 @font-face {
   font-family: "JetBrains Mono";
-  src: url("JetBrainsMono-Regular.woff") format("woff");
+  src: url("fonts/JetBrainsMono-Regular.woff") format("woff");
 }
 
 body {
   font-family: 'JetBrains Mono', sans-serif;
-  background-image: url('pattern.jpg');
+  background-image: url('images/pattern.jpg');
   background-size: cover;
 }
 
 header {
   padding: 40px 0;
+}
+
+header a {
+  color: black;
 }
 
 header .row,
@@ -30,14 +33,18 @@ nav {
   justify-content: flex-end;
 }
 
+li, h3 {
+  color:white;
+}
+
 a {
   padding: 0 20px;
   margin: 0;
-  color: black;
+  color: white;
 }
 
 a:hover {
-  color: black;
+  color: inherit;
 }
 
 a:active {
@@ -48,13 +55,14 @@ a:active {
  
   display: flex;
   align-items: right;
-  background-image: url('code.jpg');
+  background-image: url('images/motherboard.jpg');
   background-size: 100%;
   background-repeat: no-repeat;
   background-color: #000000;
   color: #ffffff;
   height: auto;
   border-radius: 0px;
+  text-shadow: orange 0 0 2px;
 }
 
 .jumbotron h2 {
@@ -70,6 +78,10 @@ section .row img {
   width: 100%;
 }
 
+.img-fluid {
+ max-height: 400px;
+ max-width: 400px;
+}
 
 .col-md-6 {
   margin: 0 0 30px;
@@ -119,4 +131,3 @@ footer .col-sm-8 {
 footer ul {
   list-style: none;
 }
-

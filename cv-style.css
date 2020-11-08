@@ -23,7 +23,7 @@ page {
    }
 
 .col-sm-1 {
-  border-left: solid thin rgb(94,96,161);
+  border-left: solid thin rgb(0,0,0);
   width: 1.5cm;
   display: inline-grid;
   margin: 0;
@@ -63,7 +63,7 @@ nav {
 }
 
 .col-sm-9 {
-  border-left: solid thin rgb(94,96,161);
+  border-left: solid thin rgb(0,0,0);
   width : 13.5cm;
   display: block;  
   margin: 0;
@@ -80,14 +80,14 @@ nav {
 a {
   width: 4.5cm;
   font-size: 7.5pt;
-  color: rgb(94,96,161);
+  color: rgb(0,0,0);
   height: 9pt;
   text-decoration: none;
   margin : 0 0 0 0;
  }
 
 a:hover {
-  color: rgb(94,96,161);
+  color: rgb(0,0,0);
   text-decoration: underline;
  }
 
@@ -97,7 +97,7 @@ font-size:0.9em;
 
 p {
   font-size: 7.5pt;
-  color: rgb(94,96,161);
+  color: rgb(0,0,0);
   height: 0.6cm;
   margin : 0 0.15cm 0 0.1cm;
 }
@@ -111,14 +111,17 @@ dd {
 }
 
 h1 {
-  color: rgb(94,96,161);
+  color: rgb(0,0,0);
   font-weight: bold;
   margin-bottom: 0.2cm;
+
 }
 
 h3 {
-  color: rgb(94,96,161);
+  color: rgb(0,0,0);
   margin-top: 0.8cm;
+  text-decoration-line: underline;
+  text-decoration-style: thin;
 }
 
 header h3 {
@@ -127,7 +130,7 @@ header h3 {
 }
 
 footer {
-border-top: solid thin rgb(94,96,161);
+border-top: solid thin rgb(0,0,0);
 font-size:0.74em;
 top: 27.5cm;
 padding-top: 0.1cm;
@@ -147,7 +150,7 @@ li {
 
  html, body {
     width: 210mm;
-    height: 295mm;
+    height: 297mm;
     margin: 0 !important;
   }
 
