@@ -1,5 +1,5 @@
-# My portfolio
-A personal portfolio website
+# personal-website
+Personal website and resume
 
 ## Table of contents
 * [General info](#general-info)
@@ -9,7 +9,7 @@ A personal portfolio website
 * [Inspiration](#inspiration)
 
 ## General info
-Simple personal portfolio website with interactive cv
+Simple personal website with interactive resume
 
 ## Technologies
 * HTML5
@@ -17,14 +17,14 @@ Simple personal portfolio website with interactive cv
 * Bootstrap v4.4.1
 
 ## Features
-* Overall site structure
+* Resume page in A4 format, for easy browser printing. Ctrl+P -> Save as PDF to create pdf with active hyperlinks.  
+* Home and credentials page in web friendly bootstrap layout.
 
 To-do list:
-* Implement cv subsite
-* Input personal data
+* Work on home page readibility: change background images.
 
 ## Status
-Project is in progress. See current state: [m-holubczat.me](m-holubczat.me)
+Website is up and running: [m-holubczat.me](m-holubczat.me)
 
 ## Inspiration
 Project based on codecademy "Make a website" course
